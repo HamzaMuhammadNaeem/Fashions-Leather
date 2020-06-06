@@ -1,0 +1,239 @@
+/* Navbar */
+.navbar {
+    background-color:antiquewhite !important;
+    /* overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%; */
+}
+/* .main {
+    margin: 30px;
+} */
+.navbar-text {
+    margin-right: 50px;
+}
+.nav-link{
+    color: firebrick !important;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.nav-link:hover,.fa-search.fa-shopping-cart:hover,.fa-user-circle-o:hover {
+    background-color: firebrick;
+    color: white !important;
+    box-shadow: 0 0 10px white,0 0 40px  firebrick,0 0 80px white;
+    transition-delay: 3sec;
+    
+}
+.dropdown-menu {
+    background-color: firebrick;
+    border-radius: 10px;
+}
+.dropdown-item:hover{
+    color: firebrick !important;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.dropdown-item {
+    color:antiquewhite !important;
+}
+.fa-shopping-cart,.fa-user-circle-o,.fa-search {
+    color: firebrick !important;
+    font-size: 32px !important;
+    margin-right: 10px;
+}
+
+
+/* Main Card */
+
+.fa-truck,.fa-headphones,.fa-thumbs-up {
+    color: firebrick;
+    font-size: 50px !important;
+    margin-right: 10px;    
+}
+h3 {
+    color: firebrick;
+    
+}
+.card1,.card2,.card3 {
+    display: flex;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 100px;
+    box-shadow: 2px 3px 10px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mainCard {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+
+
+
+  /* Product Card */
+
+  .container {
+      width: 100%;
+  }
+  .heading {
+      text-align: center;
+      font-weight: bold;
+      color: firebrick;
+      margin-top: 30px;
+      text-shadow: 0px 0px 10px indianred;
+  }
+  .card {
+      margin-top: 20px;
+      width: 100% !important;
+      height: auto !important;
+      justify-content: space-between !important;
+      background-color: antiquewhite;
+  }
+  .btn-primary {
+      width: 100%;
+      background-color: firebrick;
+      border: none;
+  }
+  .btn-primary:hover {
+    color: firebrick;
+    background-color: antiquewhite;
+    border: Solid firebrick;
+  }
+  .col {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 20px;
+  }
+  .row {
+      justify-content: center;
+  }
+
+/* Datail Footer */
+
+.detail-footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    margin: 50px 0 0 0;
+    justify-content: space-around;
+}
+.bottom-logos {
+    display: inline-block;
+    width: 200px;
+    align-items: center;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}
+
+.question {
+    margin-left: 10px;
+
+}
+.detail {
+    color: firebrick;
+    width: 220px;
+    margin: 30px 10px ;
+    justify-content: space-between;
+}
+h2 {
+    color: firebrick;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.icons {
+    color: firebrick;
+    margin: 20px 10px 10px 10px;
+    justify-content: space-around;
+}
+.icon-1:hover,.icon-2:hover,.icon-3:hover {
+    box-shadow: firebrick 0px 0px 10px;
+}
+.main-headings {
+    margin-bottom: 30px;
+}
+.fa-phone, .fa-envelope {
+    margin: 10 10px 10px 10px;
+}
+.payment {
+    margin: 0 0 0 0 !important;
+}
+.heading-list {
+    color: firebrick;
+    justify-content: flex;
+}
+.heading-list:hover {
+    color: grey;
+    font-weight: 700;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height:80px;
+    background-color: firebrick;
+}
+.footer > div {
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 12px;
+}
+
+/* About Us */
+
+.aboutUs-banner, .childrenCollection-banner, .contactUs-banner, .womensCollection-banner, .mensCollection-banner {
+    width: 100%;
+}
+
+/* Contact Us */
+
+.contactForm {
+    justify-content: space-between 20px;
+    /* line-height: 50px; */
+    background-color: antiquewhite;
+    
+}
+
+.submit {
+    background-color: firebrick;
+    color: white;
+    border-radius: 5px;
+    margin-left: 200%;
+}
+
+/* About Us */
+
+.paraghraph {
+    margin: 20px 30px 20px 30px ;
+    text-align: justify;
+}
+
+/* FAQ */
+
+
+
+
+  @media screen and (max-width: 620px) {
+    .card1,.card2,.card3 {
+      width: 100%;
+    }
+    .card {
+        display: block;
+    }
+    .bottom-logos {
+        display: flex;
+    }
+
+  }
